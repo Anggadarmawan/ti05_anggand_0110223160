@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+.content{
+     display: flex;
+     height: 70vh;
+}
+header, article, aside, nav, footer {
+    padding: 2rem;
+}
+header{
+    background-color: rgb(128, 9, 240);
+    height: 10vh;
+
+}
+article{
+    background-color: rgb(248, 0, 0);
+    width: 75%;
+}
+aside{
+    background-color: rgb(9, 2, 138);
+    width: 30%;
+}
+nav{
+        background-color: rgb(9, 2, 138);
+        display: flex;
+        align-items: center;
+        float: left;
+        width: 5%;
+        height: 100vh;
+}
+footer{
+    background-color: rgb(149, 0, 248);
+    width: 95%;
+    height: 10vh;
+}

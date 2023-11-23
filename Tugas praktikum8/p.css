@@ -1,0 +1,44 @@
+header,
+footer {
+    height: 20vh;
+    background-color: rgb(0, 4, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+.content {
+    height: 60vh;
+    display: flex;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(255, 0, 0);
+    margin: 30px;
+}
+
+.article {
+    background-color: rgb(0, 255, 0);
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+article{
+    margin-top: 120px;
+}
+
+aside {
+    background-color: rgb(12, 0, 179);
+    flex-grow: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(255, 4, 4);
+}
