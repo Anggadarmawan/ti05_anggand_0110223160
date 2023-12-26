@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+
+    <script>
+
+        function image_picker(){
+            const list_gambar = ["banteng.png", "macan.png", "naga.png"];
+            let pilihan = document.getElementById("option").value;
+
+            if(pilihan == "banteng"){
+                let select = list_gambar[0];
+                document.getElementById("gambar").src = `images/${select}`;
+            }
+            if(pilihan == "macan"){
+                let select = list_gambar[1];
+                document.getElementById("gambar").src = `images/${select}`;
+
+            }
+            if(pilihan == "naga"){
+                let select = list_gambar[2];
+                document.getElementById("gambar").src = `images/${select}`;
+
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Image Picker</h1>
+
+    <select name="" id="option" onchange="image_picker()">
+        <option value="">Pilih Gambar</option>
+        <option value="banteng"> Banteng</option>
+        <option value="macan"> Macan</option>
+        <option value="naga"> Naga</option>
+
+    </select>
+
+    <div class="contsiner">
+        <img id="gambar" width="100%">
+    </div>
+
+</body>
+</html>
